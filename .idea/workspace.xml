@@ -4,13 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a0c6a07-a507-4cd8-86d3-fd59504cf6d1" name="Default Changelist" comment="Gitignore">
+    <list default="true" id="7a0c6a07-a507-4cd8-86d3-fd59504cf6d1" name="Default Changelist" comment="-Added project structure&#10;-Added moving background&#10;-Added controllable player&#10;-Added randomly spawning flies that (currently) die on collision with the avatar">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A_Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A_Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A_GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A_GraphicSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A_InputSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A_PhysicsSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A_UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A_World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B_InputSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B_Panel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Background_Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSR_AnimatedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSR_Avatar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSR_Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSR_PhysicsSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSR_World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Fly_Enemy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Fly_Enemy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Fly_Enemy3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Fly_Enemy4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/FrogFloat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/FrogIdle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/FrogJump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/FrogJump2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Stones v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Water_Background v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Water_Background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyJavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyJavaProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RectangleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RectangleExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -20,7 +59,16 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1zPZHTjMeDIczLcT1k3dhUQF6c1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,8 +76,50 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Game" />
+    <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Axelbaer\Documents\Studium\Semester5\Computer Graphics\MyJavaCGProject\src\Images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.A_Main">
+    <configuration name="A_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A_Main" />
+      <module name="MyJavaProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovingRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovingRectangle" />
+      <module name="MyJavaProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RectangleExample" />
+      <module name="MyJavaProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.A_Main" />
+        <item itemvalue="Application.MovingRectangle" />
+        <item itemvalue="Application.RectangleExample" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634051847994</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Gitignore">
+      <created>1634052017959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634052017959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,9 +157,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gitignore" />
+    <MESSAGE value="-Added project structure&#10;-Added moving background&#10;-Added controllable player&#10;-Added randomly spawning flies that (currently) die on collision with the avatar" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Added project structure&#10;-Added moving background&#10;-Added controllable player&#10;-Added randomly spawning flies that (currently) die on collision with the avatar" />
   </component>
 </project>
