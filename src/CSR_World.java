@@ -17,9 +17,12 @@ public class CSR_World extends A_World {
         //if(userInput.isMouseEvent)
         //if(userInput.isKeyEvent)
         if(userInput.isKeyEvent){
-            if(userInput.keyWasPressed())
+            if(userInput.keyWasPressed()){
                 if (userInput.keyPressed == 32)
                     avatar.ascend();
+                if(userInput.keyPressed == 'm' || userInput.keyPressed == 'M') bg.setMode();
+
+            }
             if(userInput.keyWasReleased())
                 if (userInput.keyReleased == 32)
                     avatar.descend();

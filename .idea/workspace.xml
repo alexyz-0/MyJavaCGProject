@@ -5,39 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a0c6a07-a507-4cd8-86d3-fd59504cf6d1" name="Default Changelist" comment="-Added project structure&#10;-Added moving background&#10;-Added controllable player&#10;-Added randomly spawning flies that (currently) die on collision with the avatar">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A_Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A_Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A_GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A_GraphicSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A_InputSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A_PhysicsSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A_UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A_World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B_InputSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B_Panel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Background_Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CSR_AnimatedObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CSR_Avatar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CSR_Fly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CSR_PhysicsSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CSR_World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Fly_Enemy1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Fly_Enemy2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Fly_Enemy3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Fly_Enemy4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/FrogFloat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/FrogIdle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/FrogJump.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/FrogJump2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Stones v2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Water_Background v2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Water_Background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyJavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyJavaProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RectangleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RectangleExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Background_Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Background_Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSR_World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSR_World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634052017959</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-Added project structure&#10;-Added moving background&#10;-Added controllable player&#10;-Added randomly spawning flies that (currently) die on collision with the avatar">
+      <created>1635512170994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635512170994</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

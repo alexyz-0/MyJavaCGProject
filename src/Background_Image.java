@@ -7,6 +7,7 @@ import java.nio.Buffer;
 class Backgound_Image {
     private BufferedImage bgImage;
     private BufferedImage waterImage;
+    private int mode = 0;
     private TexturePaint paint;
     private TexturePaint stonePaint;
     private int highestTileWidth = 256;
@@ -25,7 +26,9 @@ class Backgound_Image {
         stonePaint = new TexturePaint(tempImage, new Rectangle(0, 0, 256, 256));
     }
 
-    void setMode(int mode){
+    void setMode(){
+        mode++;
+        if(mode > 1) mode = 0;
         switch (mode) {
             case 0 -> {
                 try {
