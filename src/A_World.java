@@ -43,8 +43,8 @@ abstract class A_World {
                 gos.waitTilShow(millisDiff);
             }
             if(!gos.isInitialized()){
-                //Spawn Enemy 50:1 Chance
-                if(ThreadLocalRandom.current().nextInt(0, 50 + 1) == 0)         //ThreadLocalRandom.current().nextInt(min, max + 1);
+                //Spawn Enemy 30:1 Chance
+                if(ThreadLocalRandom.current().nextInt(0, 30 + 1) == 0)         //ThreadLocalRandom.current().nextInt(min, max + 1);
                     enemyList.add(new CSR_Fly());
 
                 //Move
